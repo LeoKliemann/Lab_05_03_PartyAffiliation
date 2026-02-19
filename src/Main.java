@@ -19,6 +19,12 @@ import java.util.Scanner;
 public class Main{
     public static void main (String[] args)
     {
+        Scanner in = new Scanner(System.in);
+        String party = "";
+        double trash = 0;
+
+        System.out.println("Please select your party: [D, R, I]");
+
 
     }
 }
