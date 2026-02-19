@@ -25,6 +25,26 @@ public class Main{
 
         System.out.println("Please select your party: [D, R, I]");
 
+        if(in.hasNextLine())
+        {
+            party = in.nextLine();
 
+            if(party.equals("D"))
+            {
+                System.out.println("You get a Democratic Donkey!");
+            }
+            else if(party.equals("R"))
+            {
+                System.out.println("You get a Republican Elephant!");
+            }
+            else if(party.equals("I"))
+            {
+                System.out.println("You get an Independent Man!");
+            }
+            else
+            {
+                System.out.println("You have not entered a proper value, please choose the mentioned options");
+            }
+        }
     }
 }
